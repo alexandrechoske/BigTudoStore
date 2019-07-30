@@ -1,0 +1,24 @@
+1 - contar quantidade de cada item no array e disponibilizar na tela (x )
+2 - passar o parâmetro do que foi clicado na galeria para a tela de filtro ( x )
+3 - passar o array dos que gostou para ser compartilhado no whatsapp ( ) 
+4 - exicibr uma imagem ou texto quando flatlist não retornar nada (x)
+5 - tentar fazer um image picker com imagem das peças 
+6 - definir como ficará a tela da lista com o parâmetro selecionado na tela da galeria ( )
+
+
+
+         {/* <PickerFolheado/> */}
+
+          {/* <Picker style={styles.pickerCatStyle}
+            selectedValue={this.state.catSelectedVal}
+            onValueChange={(itemValue, itemIndex) => this.setState({ catSelectedVal: itemValue })} >
+
+            <Picker.Item label="Filtre uma categoria aqui..." value="null" />
+            <Picker.Item label="Anel" value="Anel" />
+            <Picker.Item label="Brinco" value="Brinco" />
+            <Picker.Item label="Colar" value="Corrente" />
+            <Picker.Item label="Conjunto" value="Conjunto" />
+            <Picker.Item label="Gargantilha" value="Gargantilha" />
+            <Picker.Item label="Pulseira" value="Pulseira" />
+
+          </Picker> */}
