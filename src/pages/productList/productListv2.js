@@ -5,6 +5,8 @@ import {
   TouchableOpacity, Picker, Button
 } from 'react-native';
 
+import ScrollHeader from './scrollHeader';
+
 export default class Project extends Component {
 
   constructor(props) {
@@ -144,6 +146,8 @@ return (
 
       <View style={styles.MainContainer}>
 
+    <ScrollHeader/>
+
         <View style={styles.container}>
 
               <View style={{alignItems: 'center'}}>
@@ -168,6 +172,8 @@ return (
             <Picker.Item label="Prata" value="Prata" />
             <Picker.Item label="Couro" value="Couro" />
           </Picker>
+
+      
 
           { this.state.tipoSelectedVal === 'Ouro' ?           
             <View style={styles.imageFolheadoGalleryView}><Image style={styles.imageFolheadoGallery} source={require('../../../assets/images/goldIcon.png')}/></View>
