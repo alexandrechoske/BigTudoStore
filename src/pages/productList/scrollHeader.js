@@ -10,7 +10,7 @@ export default class App extends Component {
 
   renderExpanded = () => (
     <View style={{ flex: 1, backgroundColor: 'pink', padding: 20, justifyContent: 'center' }}>
-      <Text style={{ fontWeight: 'bold', fontSize: 22, alignSelf: 'center' }}>
+      <Text style={{ fontWeight: 'bold', fontSize: 20, alignSelf: 'center' }}>
         Expanded Header
       </Text>
     </View>
